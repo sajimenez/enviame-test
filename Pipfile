@@ -9,6 +9,8 @@ flask-sqlalchemy = "==2.5.*"
 flask-migrate = "==2.7.*"
 faker = "==8.1.*"
 psycopg2-binary = "==2.8.*"
+flask-marshmallow = "==0.14.*"
+marshmallow-sqlalchemy = "==0.25.*"
 
 [dev-packages]
 flake8 = "==3.9.*"
