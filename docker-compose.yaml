@@ -9,9 +9,10 @@ services:
       - "5000:5000"
     command: >
       sh -c "flask db upgrade &&
+             flask loadcompanies 20 &&
              flask run"
     env_file: 
-      - .env
+      - example.env
     depends_on: 
       db:
         condition: service_healthy

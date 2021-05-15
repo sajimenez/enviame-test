@@ -19,3 +19,6 @@ def create_app(config_class=Config):
 
 
 app = create_app()
+
+
+from api import models, cli  # noqa
