@@ -9,7 +9,7 @@ services:
       - "5000:5000"
     command: >
       sh -c "flask db upgrade &&
-             flask loadcompanies 20 &&
+             flask load-companies 20 &&
              flask run"
     env_file: 
       - example.env

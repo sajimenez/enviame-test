@@ -11,6 +11,7 @@ faker = "==8.1.*"
 psycopg2-binary = "==2.8.*"
 flask-marshmallow = "==0.14.*"
 marshmallow-sqlalchemy = "==0.25.*"
+requests = "==2.25.*"
 
 [dev-packages]
 flake8 = "==3.9.*"

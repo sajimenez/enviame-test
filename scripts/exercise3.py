@@ -8,11 +8,12 @@ TEXT = (
 )
 
 
-def find_palindromes(t=TEXT):
+def find_palindromes(text=TEXT):
+    """Find palindrome sequences in the given text."""
     palindromes = []
-    for i in range(0, len(t)-2):
-        for j in range(i+2, len(t)):
-            chain = t[i:j]
+    for i in range(0, len(text)-1):
+        for j in range(i+2, len(text)+1):
+            chain = text[i:j]
             if chain == chain[::-1]:
                 palindromes.append(chain)
     return palindromes
