@@ -48,7 +48,7 @@
     * Duplicate the file `example.env` and rename it to `.env`
     * Edit the environment variables inside the `.env` file accordingly
     * Activate the virtual environment: `pipenv shell` (this automatically loads the `.env` file)
-    * Note: If no DATABASE_URL is defined, the apps creates an Sqlite file by default.
+    * Note: If no DATABASE_URL is defined, the app creates an Sqlite file by default.
 
 1. Run migrations, load mock data and start the server:
     ```
@@ -67,4 +67,4 @@
     python scripts/exercise6.py
     ```
 
-Note: The SQL script corresponding to the Exercise 7 is located in the scripts folder.
+Note: The SQL script corresponding to the Exercise 7 is located in the `scripts` folder.
