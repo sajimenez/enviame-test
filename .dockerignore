@@ -1,0 +1,11 @@
+.git/
+*.pyc
+__pycache__
+*.log
+.flake8
+*.env
+*.db
+.gitignore
+Dockerfile
+docker-compose.yml
+enviame-test.postman_collection.json

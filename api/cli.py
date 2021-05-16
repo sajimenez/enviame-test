@@ -74,5 +74,7 @@ def create_shipping():
     payload = json.dumps(SHIPPING)
     rsp = requests.post(url, data=payload, headers=headers)
 
+    click.echo(rsp.json())
+
     with open('shipping.log', 'a+') as log:
         log.write(f'{datetime.now()}|{payload}|{rsp.json()}\n')
